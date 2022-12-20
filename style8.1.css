@@ -1,0 +1,84 @@
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(65, 65, 65);
+    text-align: center;
+    margin-top: 50px;
+    height: 90px;
+}
+
+.list {
+    padding: 21px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.list:hover {
+    position: relative;
+    padding: 40px 21px 40px 21px;
+    transform: scale(2);
+}
+
+.logo {
+    display: inline-block;
+    position: relative;
+    color: #F58B01;
+    top: 17px;
+}
+
+.team {
+    display: inline;
+    color: #ffffff;
+}
+
+.team:hover {
+    box-sizing: content-box;
+    background-color: rgb(231, 89, 32);
+    /* font-size: 17px; */
+}
+
+.service:hover {
+    background-color: #ff3300;
+}
+.portfolio:hover {
+    background-color: #F58B01;
+}
+.about:hover {
+    background-color: #2e3947;
+}
+.clients:hover {   
+    background-color: #ffe605;
+}
+.contacts:hover {
+    background-color: #bdbdbd;
+}
+.tel:hover {
+    background-color: #ff0000;
+}
+
+.social {
+    display: inline-block;
+    position: relative;
+    top: -12px;
+}
+.social a {
+    padding-left: 17px;
+}
+.chat {
+    position: relative;
+    padding: 10px;
+}
+
+.chat_img {
+    float: left;
+    padding: 0 10px 0 10px;
+}
+.chat_text {
+    margin: 0;
+    float: right;
+    color: #ffffff;
+}

@@ -1,0 +1,72 @@
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(65, 65, 65);
+    height: 70px;
+    text-align: center;
+    margin-top: 50px;
+}
+.list {
+    position: relative;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 40px;
+    padding: 15px;
+}
+.list a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.list a:hover {
+    text-align: center;
+    /* opacity: 0.0; */
+}
+.list:hover {
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    /* height: 90px; */
+    top: -10px;
+    /* font-size: 0; */
+    
+}
+
+.logo {
+    position: relative;
+    right: 1;
+}
+
+.list.service:hover {
+    background-color: #ff3300;
+}
+.list.portfolio:hover {
+    background-color: #F58B01;
+}
+.list.about:hover {
+    background-color: #2e3947;
+}
+.list.clients:hover {   
+    background-color: #ffe605;
+}
+.list.contacts:hover {
+    background-color: #bdbdbd;
+}
+.list.tel:hover {
+    background-color: #ff0000;
+}
+/* .social {
+    box-sizing: border-box;
+    display: inline-block;
+}
+.social a {
+    padding-left: 10px;
+}
+.chat {
+    position: relative;
+}
+.chat_with_us {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+} */
